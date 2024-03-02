@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page de Détails</title>
+</head>
+<body>
+    <h1>Détails de l'Item</h1>
+    <div id="details"></div>
+
+    <script>
+        function getQueryParameter(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        function displayDetails() {
+            // Obtenir l'ID de l'item depuis l'URL
+            const itemId = getQueryParameter('id');
+            // Afficher les détails basés sur l'ID (exemple simplifié)
+            document.getElementById('details').innerText = `Détails pour l'item ${itemId}`;
+        }
+
+        // Appeler la fonction au chargement de la page
+        displayDetails();
+    </script>
+</body>
+</html>

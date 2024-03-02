@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page d'Accueil</title>
+</head>
+<body>
+    <div id="item1" onclick="redirectToDetailsPage(1)">Item 1</div>
+    <div id="item2" onclick="redirectToDetailsPage(2)">Item 2</div>
+    <div id="item3" onclick="redirectToDetailsPage(3)">Item 3</div>
+
+    <script>
+        function redirectToDetailsPage(itemId) {
+            // Construire l'URL de la page de détails avec le paramètre id
+            const detailsUrl = `details.html?id=${itemId}`;
+            // Rediriger le navigateur vers l'URL
+            window.location.href = detailsUrl;
+        }
+    </script>
+</body>
+</html>
