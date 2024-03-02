@@ -55,9 +55,5 @@ Dans une application React, le passage de paramètres entre composants de pages 
 Le passage dynamique de paramètres entre pages est essentiel pour créer des applications web interactives et réactives. Que ce soit par des méthodes simples utilisant JavaScript pur ou des approches plus avancées avec Node.js, Express, ou React, l'objectif est de maîtriser ces techniques pour améliorer l'expérience utilisateur et la flexibilité de vos applications web.
 
 ## Conclusion
+Ce guide offre un aperçu des différentes méthodes pour passer des paramètres, comme des IDs, entre pages dans divers contextes de développement web. En maîtrisant ces techniques, vous serez en mesure de créer des applications web plus dynamiques et personnalisées, répondant mieux aux actions et aux besoins des utilisateurs.
 
-<<<<<<< HEAD
-Ce guide offre un aperçu des différentes méthodes pour passer des paramètres, comme des IDs, entre pages dans divers contextes de développement web. En maîtrisant ces techniques, vous serez en mesure de créer des applications web plus dynamiques et personnalisées, répondant mieux aux actions et aux besoins des utilisateurs.
-=======
-Ce guide offre un aperçu des différentes méthodes pour passer des paramètres, comme des IDs, entre pages dans divers contextes de développement web. En maîtrisant ces techniques, vous serez en mesure de créer des applications web plus dynamiques et personnalisées, répondant mieux aux actions et aux besoins des utilisateurs.
->>>>>>> 50a0699efb960482db674227e43f061f125dea65
